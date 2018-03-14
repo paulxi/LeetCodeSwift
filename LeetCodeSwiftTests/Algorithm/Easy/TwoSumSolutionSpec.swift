@@ -11,7 +11,7 @@ import Nimble
 @testable import LeetCodeSwift
 
 class TwoSumSolutionSpec: QuickSpec {
-    
+
     override func spec() {
         describe("Two Sum") {
             it("should return 2 numbers") {
@@ -20,5 +20,5 @@ class TwoSumSolutionSpec: QuickSpec {
             }
         }
     }
-    
+
 }

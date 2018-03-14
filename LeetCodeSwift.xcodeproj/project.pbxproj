@@ -180,6 +180,7 @@
 				EFD9FC3B20599AC800299F54 /* Headers */,
 				EFD9FC3C20599AC800299F54 /* Resources */,
 				444A9C61859B605BFC1E5BA7 /* [CP] Copy Pods Resources */,
+				EFD9FC622059BCB700299F54 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -200,6 +201,7 @@
 				EFD9FC4520599AC800299F54 /* Resources */,
 				E84ED8AA4E145BA6EE7B8B05 /* [CP] Embed Pods Frameworks */,
 				3E0FD1687DA644153029929A /* [CP] Copy Pods Resources */,
+				EFD9FC632059BD0900299F54 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -353,6 +355,32 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeetCodeSwiftTests/Pods-LeetCodeSwiftTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		EFD9FC622059BCB700299F54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		EFD9FC632059BD0900299F54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
