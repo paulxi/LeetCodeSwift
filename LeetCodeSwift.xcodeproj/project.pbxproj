@@ -12,7 +12,6 @@
 		EFD9FC4820599AC800299F54 /* LeetCodeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD9FC3E20599AC800299F54 /* LeetCodeSwift.framework */; };
 		EFD9FC4F20599AC800299F54 /* LeetCodeSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD9FC4120599AC800299F54 /* LeetCodeSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFD9FC5B20599FF000299F54 /* TwoSumSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9FC5A20599FF000299F54 /* TwoSumSolution.swift */; };
-		EFD9FC5F2059A1E200299F54 /* TwoSumSolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9FC5E2059A1E200299F54 /* TwoSumSolutionTests.swift */; };
 		EFD9FC612059A61700299F54 /* TwoSumSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9FC602059A61700299F54 /* TwoSumSolutionSpec.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,6 @@
 		EFD9FC4720599AC800299F54 /* LeetCodeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD9FC4E20599AC800299F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFD9FC5A20599FF000299F54 /* TwoSumSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumSolution.swift; sourceTree = "<group>"; };
-		EFD9FC5E2059A1E200299F54 /* TwoSumSolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumSolutionTests.swift; sourceTree = "<group>"; };
 		EFD9FC602059A61700299F54 /* TwoSumSolutionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumSolutionSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,7 +148,6 @@
 		EFD9FC5D2059A03600299F54 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
-				EFD9FC5E2059A1E200299F54 /* TwoSumSolutionTests.swift */,
 				EFD9FC602059A61700299F54 /* TwoSumSolutionSpec.swift */,
 			);
 			path = Easy;
@@ -398,7 +395,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD9FC612059A61700299F54 /* TwoSumSolutionSpec.swift in Sources */,
-				EFD9FC5F2059A1E200299F54 /* TwoSumSolutionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

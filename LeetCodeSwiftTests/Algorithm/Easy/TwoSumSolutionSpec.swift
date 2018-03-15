@@ -16,7 +16,17 @@ class TwoSumSolutionSpec: QuickSpec {
         describe("Two Sum") {
             it("should return 2 numbers") {
                 let solution = TwoSumSolution()
-                expect(solution.twoSum([0, 1], 1)).to(equal([0, 1]))
+                expect(solution.twoSum([2, 7, 11, 15], 9)).to(equal([0, 1]))
+            }
+
+            it("should return empty array when nums is an empty array") {
+                let solution = TwoSumSolution()
+                expect(solution.twoSum([], 9)).to(equal([]))
+            }
+
+            it("should return empty array when result could not be found") {
+                let solution = TwoSumSolution()
+                expect(solution.twoSum([2, 11, 15], 9)).to(equal([]))
             }
         }
     }

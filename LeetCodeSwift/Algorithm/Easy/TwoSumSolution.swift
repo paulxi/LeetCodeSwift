@@ -10,6 +10,15 @@ import Foundation
 
 class TwoSumSolution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        return [0, 1]
+        var map = [Int: Int]()
+        for (index, item) in nums.enumerated() {
+            let value = target - item
+            if let valueIndex = map[value] {
+                return [valueIndex, index]
+            }
+            map[item] = index
+
+        }
+        return []
     }
 }
