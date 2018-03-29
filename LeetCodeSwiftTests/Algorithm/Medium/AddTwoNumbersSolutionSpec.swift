@@ -30,7 +30,6 @@ class AddTwoNumbersSolutionSpec: QuickSpec {
 
             it("should return list 9") {
                 let l1 = ListNode(8)
-
                 let l2 = ListNode(1)
 
                 let result = ListNode(9)
@@ -50,7 +49,7 @@ class AddTwoNumbersSolutionSpec: QuickSpec {
                 expect(solution.addTwoNumbers(l1, l2)).to(equal(result))
             }
 
-            it("should return list 0 -> 1") {
+            it("should return list 0 -> 0 -> 1") {
                 let l1 = ListNode(9)
                 l1.next = ListNode(9)
 

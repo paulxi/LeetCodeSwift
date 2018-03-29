@@ -11,11 +11,13 @@
 		74B27C0508E8D62928A54AAC /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B279E1C2BE715BF2411305 /* ListNode.swift */; };
 		74B27C7D82FA8C634C6BC925 /* AddTwoNumbersSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B278AE2A3B4209A0F5717F /* AddTwoNumbersSolution.swift */; };
 		74B27E462F2B8AEC8031EE46 /* AddTwoNumbersSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B272871D906537D56438F9 /* AddTwoNumbersSolutionSpec.swift */; };
+		74B27EBA1C3E71128F8A61E9 /* MedianOfTwoSortedArraysSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2799AEA328569240AB73C /* MedianOfTwoSortedArraysSolution.swift */; };
 		B3997D39D6810CF65C695088 /* Pods_LeetCodeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EA7DA9646D7A191931CDA5 /* Pods_LeetCodeSwiftTests.framework */; };
 		EFD9FC4820599AC800299F54 /* LeetCodeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD9FC3E20599AC800299F54 /* LeetCodeSwift.framework */; };
 		EFD9FC4F20599AC800299F54 /* LeetCodeSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD9FC4120599AC800299F54 /* LeetCodeSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFD9FC5B20599FF000299F54 /* TwoSumSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9FC5A20599FF000299F54 /* TwoSumSolution.swift */; };
 		EFD9FC612059A61700299F54 /* TwoSumSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD9FC602059A61700299F54 /* TwoSumSolutionSpec.swift */; };
+		EFE15A2B206D8922001E1BE7 /* MedianOfTwoSortedArraysSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27D11C0003EF4D96630A8 /* MedianOfTwoSortedArraysSolutionSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,9 @@
 		606F052316F4ECA9F4732741 /* Pods-LeetCodeSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwiftTests/Pods-LeetCodeSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74B272871D906537D56438F9 /* AddTwoNumbersSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersSolutionSpec.swift; sourceTree = "<group>"; };
 		74B278AE2A3B4209A0F5717F /* AddTwoNumbersSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersSolution.swift; sourceTree = "<group>"; };
+		74B2799AEA328569240AB73C /* MedianOfTwoSortedArraysSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysSolution.swift; sourceTree = "<group>"; };
 		74B279E1C2BE715BF2411305 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		74B27D11C0003EF4D96630A8 /* MedianOfTwoSortedArraysSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysSolutionSpec.swift; sourceTree = "<group>"; };
 		AE87D98EF40E80C96299D982 /* Pods-LeetCodeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwiftTests/Pods-LeetCodeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7FCF0C7AE10142E68BFA508 /* Pods-LeetCodeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwift/Pods-LeetCodeSwift.release.xcconfig"; sourceTree = "<group>"; };
 		EFD9FC3E20599AC800299F54 /* LeetCodeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCodeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74B270EA891E898E3FB67A6B /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+				74B27D11C0003EF4D96630A8 /* MedianOfTwoSortedArraysSolutionSpec.swift */,
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
 		74B271B51EA0347D9E8790B3 /* Medium */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,14 @@
 				74B272871D906537D56438F9 /* AddTwoNumbersSolutionSpec.swift */,
 			);
 			path = Medium;
+			sourceTree = "<group>";
+		};
+		74B27C65B12AD59A2B69069C /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+				74B2799AEA328569240AB73C /* MedianOfTwoSortedArraysSolution.swift */,
+			);
+			path = Hard;
 			sourceTree = "<group>";
 		};
 		BBAD6634E233E5DA9F9A1E44 /* Frameworks */ = {
@@ -149,6 +169,7 @@
 			children = (
 				EFD9FC5920599E1300299F54 /* Easy */,
 				74B271B51EA0347D9E8790B3 /* Medium */,
+				74B27C65B12AD59A2B69069C /* Hard */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -166,6 +187,7 @@
 			children = (
 				EFD9FC5D2059A03600299F54 /* Easy */,
 				74B278144F4D9C69B6EA4421 /* Medium */,
+				74B270EA891E898E3FB67A6B /* Hard */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -414,6 +436,7 @@
 				EFD9FC5B20599FF000299F54 /* TwoSumSolution.swift in Sources */,
 				74B27C7D82FA8C634C6BC925 /* AddTwoNumbersSolution.swift in Sources */,
 				74B27C0508E8D62928A54AAC /* ListNode.swift in Sources */,
+				74B27EBA1C3E71128F8A61E9 /* MedianOfTwoSortedArraysSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD9FC612059A61700299F54 /* TwoSumSolutionSpec.swift in Sources */,
+				EFE15A2B206D8922001E1BE7 /* MedianOfTwoSortedArraysSolutionSpec.swift in Sources */,
 				74B27E462F2B8AEC8031EE46 /* AddTwoNumbersSolutionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
