@@ -9,45 +9,45 @@ class MedianOfTwoSortedArraysSolution {
     func findMedianSortedArrays(_ arr1: [Int], _ arr2: [Int]) -> Double {
         let nums1 = arr1.count > arr2.count ? arr2 : arr1
         let nums2 = arr1.count > arr2.count ? arr1 : arr2
-        let m = nums1.count
-        let n = nums2.count
+        let nums1Count = nums1.count
+        let nums2Count = nums2.count
 
         var imin = 0
-        var imax = m
-        let halfLen = (m + n + 1) / 2
+        var imax = nums1Count
+        let halfLen = (nums1Count + nums2Count + 1) / 2
 
         while imin <= imax {
-            let i = (imin + imax) / 2
-            let j = halfLen - i
+            let nums1RightIndex = (imin + imax) / 2
+            let nums2RightIndex = halfLen - nums1RightIndex
 
-            if i < imax && nums2[j - 1] > nums1[i] {
-                imin = i + 1
-            } else if i > imin && nums1[i - 1] > nums2[j] {
-                imax = i - 1
+            if nums1RightIndex < imax && nums2[nums2RightIndex - 1] > nums1[nums1RightIndex] {
+                imin = nums1RightIndex + 1
+            } else if nums1RightIndex > imin && nums1[nums1RightIndex - 1] > nums2[nums2RightIndex] {
+                imax = nums1RightIndex - 1
             } else {
                 var maxLeft = 0
-                if i == 0 {
-                    if j > 0 {
-                        maxLeft = nums2[j - 1]
+                if nums1RightIndex == 0 {
+                    if nums2RightIndex > 0 {
+                        maxLeft = nums2[nums2RightIndex - 1]
                     }
-                } else if j == 0 {
-                    maxLeft = nums1[i - 1]
+                } else if nums2RightIndex == 0 {
+                    maxLeft = nums1[nums1RightIndex - 1]
                 } else {
-                    maxLeft = max(nums1[i - 1], nums2[j - 1])
+                    maxLeft = max(nums1[nums1RightIndex - 1], nums2[nums2RightIndex - 1])
                 }
 
                 var minRight = 0
-                if i == m {
-                    if j < n {
-                        minRight = nums2[j]
+                if nums1RightIndex == nums1Count {
+                    if nums2RightIndex < nums2Count {
+                        minRight = nums2[nums2RightIndex]
                     }
-                } else if j == n {
-                    minRight = nums1[i]
+                } else if nums2RightIndex == nums2Count {
+                    minRight = nums1[nums1RightIndex]
                 } else {
-                    minRight = min(nums1[i], nums2[j])
+                    minRight = min(nums1[nums1RightIndex], nums2[nums2RightIndex])
                 }
 
-                if (m + n) % 2 == 1 {
+                if (nums1Count + nums2Count) % 2 == 1 {
                     return Double(maxLeft)
                 }
                 return Double(maxLeft + minRight) / 2.0

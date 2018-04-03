@@ -13,7 +13,7 @@ class MedianOfTwoSortedArraysSolutionSpec: QuickSpec {
         describe("Median of Two Sorted Arrays") {
             it("case 1") {
                 let solution = MedianOfTwoSortedArraysSolution()
-                expect(solution.findMedianSortedArrays([1, 3], [2])).to(equal(2))
+                expect(solution.findMedianSortedArrays([1, 3], [2])).to(equal(2.0))
             }
 
             it("case 2") {
