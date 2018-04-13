@@ -21,7 +21,7 @@ class LongestSubstringWithoutRepeatingCharactersSolutionSpec: QuickSpec {
                 expect(solution.lengthOfLongestSubstring("abcabcbb")).to(equal(3))
             }
 
-            it("'bbbbb' should return 3") {
+            it("'bbbbb' should return 1") {
                 let solution = LongestSubstringWithoutRepeatingCharactersSolution()
                 expect(solution.lengthOfLongestSubstring("bbbbb")).to(equal(1))
             }
