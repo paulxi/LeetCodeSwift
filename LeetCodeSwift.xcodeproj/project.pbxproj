@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5786C529DA92523A68516938 /* Pods_LeetCodeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A06DE28BDCF57961172ED1 /* Pods_LeetCodeSwift.framework */; };
+		74B271BA3387DA5C17AB66B0 /* RegularExpressionMatchingSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B277A8D121F160BAEEC562 /* RegularExpressionMatchingSolution.swift */; };
 		74B271EB5EDBD16F49846D8A /* LongestPalindromeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27487850208A0F7FF5907 /* LongestPalindromeSolution.swift */; };
 		74B2725F83AFF8B05836EE14 /* LongestPalindromeSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B275C026A5645FF151FD28 /* LongestPalindromeSolutionSpec.swift */; };
 		74B272B2EBEA89F4CD19A03A /* ReverseIntegerSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27941DABBB8836A991738 /* ReverseIntegerSolutionSpec.swift */; };
@@ -18,6 +19,7 @@
 		74B27C7D82FA8C634C6BC925 /* AddTwoNumbersSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B278AE2A3B4209A0F5717F /* AddTwoNumbersSolution.swift */; };
 		74B27D1EE3864D3D83A172BC /* ZigZagConversionSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2765F2A1584E19FE60CBF /* ZigZagConversionSolution.swift */; };
 		74B27E462F2B8AEC8031EE46 /* AddTwoNumbersSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B272871D906537D56438F9 /* AddTwoNumbersSolutionSpec.swift */; };
+		74B27E7ACAB47E97F86208D4 /* RegularExpressionMatchingSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B272EB22D8ABCFCAA9C1C8 /* RegularExpressionMatchingSolutionSpec.swift */; };
 		74B27EBA1C3E71128F8A61E9 /* MedianOfTwoSortedArraysSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2799AEA328569240AB73C /* MedianOfTwoSortedArraysSolution.swift */; };
 		74B27FCDD4272A40EDB3812B /* ZigZagConversionSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B278983BE74CD46A316DF7 /* ZigZagConversionSolutionSpec.swift */; };
 		B3997D39D6810CF65C695088 /* Pods_LeetCodeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EA7DA9646D7A191931CDA5 /* Pods_LeetCodeSwiftTests.framework */; };
@@ -44,10 +46,12 @@
 		38A06DE28BDCF57961172ED1 /* Pods_LeetCodeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeetCodeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		606F052316F4ECA9F4732741 /* Pods-LeetCodeSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwiftTests/Pods-LeetCodeSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74B272871D906537D56438F9 /* AddTwoNumbersSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersSolutionSpec.swift; sourceTree = "<group>"; };
+		74B272EB22D8ABCFCAA9C1C8 /* RegularExpressionMatchingSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularExpressionMatchingSolutionSpec.swift; sourceTree = "<group>"; };
 		74B273EE3373A36AD0A8880B /* ReverseIntegerSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseIntegerSolution.swift; sourceTree = "<group>"; };
 		74B27487850208A0F7FF5907 /* LongestPalindromeSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestPalindromeSolution.swift; sourceTree = "<group>"; };
 		74B275C026A5645FF151FD28 /* LongestPalindromeSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestPalindromeSolutionSpec.swift; sourceTree = "<group>"; };
 		74B2765F2A1584E19FE60CBF /* ZigZagConversionSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigZagConversionSolution.swift; sourceTree = "<group>"; };
+		74B277A8D121F160BAEEC562 /* RegularExpressionMatchingSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularExpressionMatchingSolution.swift; sourceTree = "<group>"; };
 		74B2783A303FB50AFE5DFB59 /* LongestSubstringWithoutRepeatingCharactersSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharactersSolutionSpec.swift; sourceTree = "<group>"; };
 		74B278983BE74CD46A316DF7 /* ZigZagConversionSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigZagConversionSolutionSpec.swift; sourceTree = "<group>"; };
 		74B278AE2A3B4209A0F5717F /* AddTwoNumbersSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersSolution.swift; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				74B27D11C0003EF4D96630A8 /* MedianOfTwoSortedArraysSolutionSpec.swift */,
+				74B272EB22D8ABCFCAA9C1C8 /* RegularExpressionMatchingSolutionSpec.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				74B2799AEA328569240AB73C /* MedianOfTwoSortedArraysSolution.swift */,
+				74B277A8D121F160BAEEC562 /* RegularExpressionMatchingSolution.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -433,6 +439,7 @@
 				74B271EB5EDBD16F49846D8A /* LongestPalindromeSolution.swift in Sources */,
 				74B27D1EE3864D3D83A172BC /* ZigZagConversionSolution.swift in Sources */,
 				74B27BDD4C3D5CDD484AB1C5 /* ReverseIntegerSolution.swift in Sources */,
+				74B271BA3387DA5C17AB66B0 /* RegularExpressionMatchingSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +454,7 @@
 				74B2725F83AFF8B05836EE14 /* LongestPalindromeSolutionSpec.swift in Sources */,
 				74B27FCDD4272A40EDB3812B /* ZigZagConversionSolutionSpec.swift in Sources */,
 				74B272B2EBEA89F4CD19A03A /* ReverseIntegerSolutionSpec.swift in Sources */,
+				74B27E7ACAB47E97F86208D4 /* RegularExpressionMatchingSolutionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
