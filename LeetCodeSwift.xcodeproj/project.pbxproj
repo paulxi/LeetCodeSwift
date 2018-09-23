@@ -17,7 +17,9 @@
 		74B2730A78F6654D49582C9F /* LongestSubstringWithoutRepeatingCharactersSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27C625281516587D9B156 /* LongestSubstringWithoutRepeatingCharactersSolution.swift */; };
 		74B275168AEF36E74B514374 /* RomanToIntegerSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B278F89F2329F173D6A764 /* RomanToIntegerSolution.swift */; };
 		74B2767ABA7DFBDB7DE24296 /* LongestSubstringWithoutRepeatingCharactersSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2783A303FB50AFE5DFB59 /* LongestSubstringWithoutRepeatingCharactersSolutionSpec.swift */; };
+		74B27767EA826842518179BD /* WordBreakSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2713EA79F1CA147D7F072 /* WordBreakSolution.swift */; };
 		74B27A395CAD988A168E826F /* ThreeSumSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27BEC1613795D33C6C849 /* ThreeSumSolution.swift */; };
+		74B27B3433259927955890C6 /* WordBreakSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27DB2CD8B231A8839D5D2 /* WordBreakSolutionSpec.swift */; };
 		74B27BDD4C3D5CDD484AB1C5 /* ReverseIntegerSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B273EE3373A36AD0A8880B /* ReverseIntegerSolution.swift */; };
 		74B27C0508E8D62928A54AAC /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B279E1C2BE715BF2411305 /* ListNode.swift */; };
 		74B27C30833443E0B4D9190B /* ThreeSumSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2732FE36173899D2FCC19 /* ThreeSumSolutionSpec.swift */; };
@@ -53,6 +55,7 @@
 		606F052316F4ECA9F4732741 /* Pods-LeetCodeSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwiftTests/Pods-LeetCodeSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74B270A974824C36D9130E72 /* RomanToIntegerSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanToIntegerSolutionSpec.swift; sourceTree = "<group>"; };
 		74B270BEB5D1CE8D8C1CADD1 /* StringToIntegerSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToIntegerSolution.swift; sourceTree = "<group>"; };
+		74B2713EA79F1CA147D7F072 /* WordBreakSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreakSolution.swift; sourceTree = "<group>"; };
 		74B27168E8ACD698F45F900A /* StringToIntegerSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToIntegerSolutionSpec.swift; sourceTree = "<group>"; };
 		74B272871D906537D56438F9 /* AddTwoNumbersSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersSolutionSpec.swift; sourceTree = "<group>"; };
 		74B272EB22D8ABCFCAA9C1C8 /* RegularExpressionMatchingSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularExpressionMatchingSolutionSpec.swift; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 		74B27BEC1613795D33C6C849 /* ThreeSumSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeSumSolution.swift; sourceTree = "<group>"; };
 		74B27C625281516587D9B156 /* LongestSubstringWithoutRepeatingCharactersSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharactersSolution.swift; sourceTree = "<group>"; };
 		74B27D11C0003EF4D96630A8 /* MedianOfTwoSortedArraysSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysSolutionSpec.swift; sourceTree = "<group>"; };
+		74B27DB2CD8B231A8839D5D2 /* WordBreakSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreakSolutionSpec.swift; sourceTree = "<group>"; };
 		AE87D98EF40E80C96299D982 /* Pods-LeetCodeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwiftTests/Pods-LeetCodeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7FCF0C7AE10142E68BFA508 /* Pods-LeetCodeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwift/Pods-LeetCodeSwift.release.xcconfig"; sourceTree = "<group>"; };
 		EFD9FC3E20599AC800299F54 /* LeetCodeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCodeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +127,7 @@
 				74B2765F2A1584E19FE60CBF /* ZigZagConversionSolution.swift */,
 				74B27BEC1613795D33C6C849 /* ThreeSumSolution.swift */,
 				74B270BEB5D1CE8D8C1CADD1 /* StringToIntegerSolution.swift */,
+				74B2713EA79F1CA147D7F072 /* WordBreakSolution.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				74B278983BE74CD46A316DF7 /* ZigZagConversionSolutionSpec.swift */,
 				74B2732FE36173899D2FCC19 /* ThreeSumSolutionSpec.swift */,
 				74B27168E8ACD698F45F900A /* StringToIntegerSolutionSpec.swift */,
+				74B27DB2CD8B231A8839D5D2 /* WordBreakSolutionSpec.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -461,6 +467,7 @@
 				74B27A395CAD988A168E826F /* ThreeSumSolution.swift in Sources */,
 				74B275168AEF36E74B514374 /* RomanToIntegerSolution.swift in Sources */,
 				74B270E54A757A87446DB63A /* StringToIntegerSolution.swift in Sources */,
+				74B27767EA826842518179BD /* WordBreakSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +486,7 @@
 				74B27C30833443E0B4D9190B /* ThreeSumSolutionSpec.swift in Sources */,
 				74B271731364D61FD3070FED /* RomanToIntegerSolutionSpec.swift in Sources */,
 				74B27CD62269B993EFDD5EA1 /* StringToIntegerSolutionSpec.swift in Sources */,
+				74B27B3433259927955890C6 /* WordBreakSolutionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
