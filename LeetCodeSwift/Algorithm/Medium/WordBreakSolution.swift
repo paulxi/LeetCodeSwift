@@ -15,9 +15,9 @@ class WordBreakSolution {
             let index = str.index(str.startIndex, offsetBy: iIdx)
             for jIdx in 0 ..< iIdx {
                 let sub = String(str[str.index(str.startIndex, offsetBy: jIdx) ..< index])
-                if (dp[jIdx] && wordSet.contains(sub)) {
-                    dp[iIdx] = true;
-                    break;
+                if dp[jIdx] && wordSet.contains(sub) {
+                    dp[iIdx] = true
+                    break
                 }
             }
         }
