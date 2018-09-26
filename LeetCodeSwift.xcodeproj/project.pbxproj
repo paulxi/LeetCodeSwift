@@ -23,8 +23,10 @@
 		74B2771AE945029153A9BD37 /* NumberOfIslandsSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27F40A65328F7799942F8 /* NumberOfIslandsSolutionSpec.swift */; };
 		74B27767EA826842518179BD /* WordBreakSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2713EA79F1CA147D7F072 /* WordBreakSolution.swift */; };
 		74B277A1E7DCF2ADB27FD3D9 /* ValidParenthesesSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2731F7CECF7527248F347 /* ValidParenthesesSolutionSpec.swift */; };
+		74B27931FDEFD8AF4E544A81 /* MergeIntervalsSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27D8073DE3FE4DCD3132A /* MergeIntervalsSolution.swift */; };
 		74B27A395CAD988A168E826F /* ThreeSumSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27BEC1613795D33C6C849 /* ThreeSumSolution.swift */; };
 		74B27B3433259927955890C6 /* WordBreakSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27DB2CD8B231A8839D5D2 /* WordBreakSolutionSpec.swift */; };
+		74B27BAD96674C81E6DE2110 /* MergeIntervalsSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B271DAAFF2B4680C779C07 /* MergeIntervalsSolutionSpec.swift */; };
 		74B27BDD4C3D5CDD484AB1C5 /* ReverseIntegerSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B273EE3373A36AD0A8880B /* ReverseIntegerSolution.swift */; };
 		74B27C0508E8D62928A54AAC /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B279E1C2BE715BF2411305 /* ListNode.swift */; };
 		74B27C30833443E0B4D9190B /* ThreeSumSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2732FE36173899D2FCC19 /* ThreeSumSolutionSpec.swift */; };
@@ -63,6 +65,7 @@
 		74B270BEB5D1CE8D8C1CADD1 /* StringToIntegerSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToIntegerSolution.swift; sourceTree = "<group>"; };
 		74B2713EA79F1CA147D7F072 /* WordBreakSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreakSolution.swift; sourceTree = "<group>"; };
 		74B27168E8ACD698F45F900A /* StringToIntegerSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToIntegerSolutionSpec.swift; sourceTree = "<group>"; };
+		74B271DAAFF2B4680C779C07 /* MergeIntervalsSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeIntervalsSolutionSpec.swift; sourceTree = "<group>"; };
 		74B272871D906537D56438F9 /* AddTwoNumbersSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersSolutionSpec.swift; sourceTree = "<group>"; };
 		74B272EB22D8ABCFCAA9C1C8 /* RegularExpressionMatchingSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularExpressionMatchingSolutionSpec.swift; sourceTree = "<group>"; };
 		74B2731F7CECF7527248F347 /* ValidParenthesesSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidParenthesesSolutionSpec.swift; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 		74B27C625281516587D9B156 /* LongestSubstringWithoutRepeatingCharactersSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharactersSolution.swift; sourceTree = "<group>"; };
 		74B27D11C0003EF4D96630A8 /* MedianOfTwoSortedArraysSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27D803CE28809F0250A01 /* NumberOfIslandsSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOfIslandsSolution.swift; sourceTree = "<group>"; };
+		74B27D8073DE3FE4DCD3132A /* MergeIntervalsSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeIntervalsSolution.swift; sourceTree = "<group>"; };
 		74B27DB2CD8B231A8839D5D2 /* WordBreakSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreakSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27ECF1265C9BCB5A176E7 /* ValidParenthesesSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidParenthesesSolution.swift; sourceTree = "<group>"; };
 		74B27F40A65328F7799942F8 /* NumberOfIslandsSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOfIslandsSolutionSpec.swift; sourceTree = "<group>"; };
@@ -142,6 +146,7 @@
 				74B270BEB5D1CE8D8C1CADD1 /* StringToIntegerSolution.swift */,
 				74B2713EA79F1CA147D7F072 /* WordBreakSolution.swift */,
 				74B27D803CE28809F0250A01 /* NumberOfIslandsSolution.swift */,
+				74B27D8073DE3FE4DCD3132A /* MergeIntervalsSolution.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				74B27168E8ACD698F45F900A /* StringToIntegerSolutionSpec.swift */,
 				74B27DB2CD8B231A8839D5D2 /* WordBreakSolutionSpec.swift */,
 				74B27F40A65328F7799942F8 /* NumberOfIslandsSolutionSpec.swift */,
+				74B271DAAFF2B4680C779C07 /* MergeIntervalsSolutionSpec.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -489,6 +495,7 @@
 				74B27C895973F2D8B9576A92 /* LRUCacheSolution.swift in Sources */,
 				74B2761E2D6019DDECBB32DE /* ValidParenthesesSolution.swift in Sources */,
 				74B271F70FF1C78D5A349862 /* NumberOfIslandsSolution.swift in Sources */,
+				74B27931FDEFD8AF4E544A81 /* MergeIntervalsSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +518,7 @@
 				74B2770676CDAF2B9B4FDFFE /* LRUCacheSolutionSpec.swift in Sources */,
 				74B277A1E7DCF2ADB27FD3D9 /* ValidParenthesesSolutionSpec.swift in Sources */,
 				74B2771AE945029153A9BD37 /* NumberOfIslandsSolutionSpec.swift in Sources */,
+				74B27BAD96674C81E6DE2110 /* MergeIntervalsSolutionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
