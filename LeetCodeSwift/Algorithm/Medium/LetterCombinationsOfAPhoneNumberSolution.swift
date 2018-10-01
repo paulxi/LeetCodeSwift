@@ -21,12 +21,12 @@ class LetterCombinationsOfAPhoneNumberSolution {
                                                    "9": ["w", "x", "y", "z"]]
 
         return digits.reduce([""]) {
-            (list: [String], char: Character) in
-            return list.flatMap {
-                (str) in
-                return letterValues[char]!.map {
-                    (letter) in
-                    return str + letter
+            (list, char) in
+             list.flatMap {
+                str in
+                 letterValues[char]!.map {
+                    letter in
+                     str + letter
                 }
             }
         }
