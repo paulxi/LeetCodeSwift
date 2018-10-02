@@ -11,6 +11,7 @@
 		74B270E54A757A87446DB63A /* StringToIntegerSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B270BEB5D1CE8D8C1CADD1 /* StringToIntegerSolution.swift */; };
 		74B27147490A1BB662368514 /* CopyListWithRandomPointerSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27AF78D42B12A0F1E5FF2 /* CopyListWithRandomPointerSolution.swift */; };
 		74B271731364D61FD3070FED /* RomanToIntegerSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B270A974824C36D9130E72 /* RomanToIntegerSolutionSpec.swift */; };
+		74B271B87DAF4B2F27A48137 /* NextClosestTimeSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27F6CCD7324716C0F7D19 /* NextClosestTimeSolutionSpec.swift */; };
 		74B271BA3387DA5C17AB66B0 /* RegularExpressionMatchingSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B277A8D121F160BAEEC562 /* RegularExpressionMatchingSolution.swift */; };
 		74B271C2A7042436A2297217 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27DBBFFC7A55103049591 /* PriorityQueue.swift */; };
 		74B271EB5EDBD16F49846D8A /* LongestPalindromeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27487850208A0F7FF5907 /* LongestPalindromeSolution.swift */; };
@@ -32,6 +33,7 @@
 		74B27931FDEFD8AF4E544A81 /* MergeIntervalsSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27D8073DE3FE4DCD3132A /* MergeIntervalsSolution.swift */; };
 		74B279ECABDEB63AF9A8C052 /* IntegerToEnglishWordsSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2751C6204DC35E2D4F274 /* IntegerToEnglishWordsSolutionSpec.swift */; };
 		74B27A395CAD988A168E826F /* ThreeSumSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27BEC1613795D33C6C849 /* ThreeSumSolution.swift */; };
+		74B27AAE9F6FB5290C9C6D03 /* NextClosestTimeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27E49260C1B479F55CCF9 /* NextClosestTimeSolution.swift */; };
 		74B27AAFE3BDE8E442AFC296 /* TrappingRainWaterSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27D54D0E95053FD6EFF1D /* TrappingRainWaterSolutionSpec.swift */; };
 		74B27AE0CCFDE20EF4B60D86 /* MaximumSubarraySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27097FA0962D0B886EEA6 /* MaximumSubarraySolution.swift */; };
 		74B27B3433259927955890C6 /* WordBreakSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27DB2CD8B231A8839D5D2 /* WordBreakSolutionSpec.swift */; };
@@ -116,8 +118,10 @@
 		74B27D8073DE3FE4DCD3132A /* MergeIntervalsSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeIntervalsSolution.swift; sourceTree = "<group>"; };
 		74B27DB2CD8B231A8839D5D2 /* WordBreakSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreakSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27DBBFFC7A55103049591 /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		74B27E49260C1B479F55CCF9 /* NextClosestTimeSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextClosestTimeSolution.swift; sourceTree = "<group>"; };
 		74B27ECF1265C9BCB5A176E7 /* ValidParenthesesSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidParenthesesSolution.swift; sourceTree = "<group>"; };
 		74B27F40A65328F7799942F8 /* NumberOfIslandsSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOfIslandsSolutionSpec.swift; sourceTree = "<group>"; };
+		74B27F6CCD7324716C0F7D19 /* NextClosestTimeSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextClosestTimeSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27F8858509353A5236A93 /* TrappingRainWaterSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrappingRainWaterSolution.swift; sourceTree = "<group>"; };
 		74B27FA98CEFA20BCD62843C /* IntegerToEnglishWordsSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerToEnglishWordsSolution.swift; sourceTree = "<group>"; };
 		AE87D98EF40E80C96299D982 /* Pods-LeetCodeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwiftTests/Pods-LeetCodeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +193,7 @@
 				74B27D8073DE3FE4DCD3132A /* MergeIntervalsSolution.swift */,
 				74B27AF78D42B12A0F1E5FF2 /* CopyListWithRandomPointerSolution.swift */,
 				74B27710ED82108B458A5933 /* LetterCombinationsOfAPhoneNumberSolution.swift */,
+				74B27E49260C1B479F55CCF9 /* NextClosestTimeSolution.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				74B271DAAFF2B4680C779C07 /* MergeIntervalsSolutionSpec.swift */,
 				74B2776D09154779F8E83F94 /* CopyListWithRandomPointerSolutionSpec.swift */,
 				74B2719841E1E3875F01C184 /* LetterCombinationsOfAPhoneNumberSolutionSpec.swift */,
+				74B27F6CCD7324716C0F7D19 /* NextClosestTimeSolutionSpec.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -554,6 +560,7 @@
 				74B2744096355254B714E0A2 /* RandomListNode.swift in Sources */,
 				74B27147490A1BB662368514 /* CopyListWithRandomPointerSolution.swift in Sources */,
 				74B27B9707CB0CA5C5D2F7B2 /* LetterCombinationsOfAPhoneNumberSolution.swift in Sources */,
+				74B27AAE9F6FB5290C9C6D03 /* NextClosestTimeSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +590,7 @@
 				74B27EBBE3C6E4D3DE966BC9 /* MaximumSubarraySolutionSpec.swift in Sources */,
 				74B27526CAA7011FDE95AC7B /* CopyListWithRandomPointerSolutionSpec.swift in Sources */,
 				74B277E5B65093796431E9DF /* LetterCombinationsOfAPhoneNumberSolutionSpec.swift in Sources */,
+				74B271B87DAF4B2F27A48137 /* NextClosestTimeSolutionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
