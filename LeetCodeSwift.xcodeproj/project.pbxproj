@@ -37,6 +37,8 @@
 		74B27767EA826842518179BD /* WordBreakSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2713EA79F1CA147D7F072 /* WordBreakSolution.swift */; };
 		74B277A1E7DCF2ADB27FD3D9 /* ValidParenthesesSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2731F7CECF7527248F347 /* ValidParenthesesSolutionSpec.swift */; };
 		74B277E5B65093796431E9DF /* LetterCombinationsOfAPhoneNumberSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2719841E1E3875F01C184 /* LetterCombinationsOfAPhoneNumberSolutionSpec.swift */; };
+		74B2780051A70A956FC2EE61 /* ContainerWithMostWaterSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2711CE7F4874553BFB357 /* ContainerWithMostWaterSolutionSpec.swift */; };
+		74B27814C761BD19209215A9 /* ContainerWithMostWaterSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27FD1A73BF6FE109BD952 /* ContainerWithMostWaterSolution.swift */; };
 		74B278C55578A54FA8F1AEE3 /* GroupAnagramsSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B273DBA699AFFD51D8974D /* GroupAnagramsSolutionSpec.swift */; };
 		74B27931FDEFD8AF4E544A81 /* MergeIntervalsSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27D8073DE3FE4DCD3132A /* MergeIntervalsSolution.swift */; };
 		74B279ECABDEB63AF9A8C052 /* IntegerToEnglishWordsSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2751C6204DC35E2D4F274 /* IntegerToEnglishWordsSolutionSpec.swift */; };
@@ -97,6 +99,7 @@
 		74B27097FA0962D0B886EEA6 /* MaximumSubarraySolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaximumSubarraySolution.swift; sourceTree = "<group>"; };
 		74B270A974824C36D9130E72 /* RomanToIntegerSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanToIntegerSolutionSpec.swift; sourceTree = "<group>"; };
 		74B270BEB5D1CE8D8C1CADD1 /* StringToIntegerSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToIntegerSolution.swift; sourceTree = "<group>"; };
+		74B2711CE7F4874553BFB357 /* ContainerWithMostWaterSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterSolutionSpec.swift; sourceTree = "<group>"; };
 		74B2713EA79F1CA147D7F072 /* WordBreakSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordBreakSolution.swift; sourceTree = "<group>"; };
 		74B2715845D7B659DA3DB03F /* MergeKSortedListsSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeKSortedListsSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27168E8ACD698F45F900A /* StringToIntegerSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringToIntegerSolutionSpec.swift; sourceTree = "<group>"; };
@@ -158,6 +161,7 @@
 		74B27F6CCD7324716C0F7D19 /* NextClosestTimeSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextClosestTimeSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27F8858509353A5236A93 /* TrappingRainWaterSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrappingRainWaterSolution.swift; sourceTree = "<group>"; };
 		74B27FA98CEFA20BCD62843C /* IntegerToEnglishWordsSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerToEnglishWordsSolution.swift; sourceTree = "<group>"; };
+		74B27FD1A73BF6FE109BD952 /* ContainerWithMostWaterSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterSolution.swift; sourceTree = "<group>"; };
 		AE87D98EF40E80C96299D982 /* Pods-LeetCodeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwiftTests/Pods-LeetCodeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7FCF0C7AE10142E68BFA508 /* Pods-LeetCodeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwift/Pods-LeetCodeSwift.release.xcconfig"; sourceTree = "<group>"; };
 		EFD9FC3E20599AC800299F54 /* LeetCodeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeetCodeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +236,7 @@
 				74B27E49260C1B479F55CCF9 /* NextClosestTimeSolution.swift */,
 				74B27EF08F926EF60B3E6DEF /* ProductOfArrayExceptSelfSolution.swift */,
 				74B279C2ED0D9EEF5E234AED /* GroupAnagramsSolution.swift */,
+				74B27FD1A73BF6FE109BD952 /* ContainerWithMostWaterSolution.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				74B27F6CCD7324716C0F7D19 /* NextClosestTimeSolutionSpec.swift */,
 				74B27423ADC4657107902A37 /* ProductOfArrayExceptSelfSolutionSpec.swift */,
 				74B273DBA699AFFD51D8974D /* GroupAnagramsSolutionSpec.swift */,
+				74B2711CE7F4874553BFB357 /* ContainerWithMostWaterSolutionSpec.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -621,6 +627,7 @@
 				74B2716F4C26CCA6DC1C1970 /* LinkedListCycleSolution.swift in Sources */,
 				74B2761862749A8F99BAB432 /* JewelsAndStonesSolution.swift in Sources */,
 				74B271D3F6D516058C41962D /* GroupAnagramsSolution.swift in Sources */,
+				74B27814C761BD19209215A9 /* ContainerWithMostWaterSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +666,7 @@
 				74B27F012C4C98271DECB0F2 /* LinkedListCycleSolutionSpec.swift in Sources */,
 				74B27A51F4CCF7BD01E532DF /* JewelsAndStonesSolutionSpec.swift in Sources */,
 				74B278C55578A54FA8F1AEE3 /* GroupAnagramsSolutionSpec.swift in Sources */,
+				74B2780051A70A956FC2EE61 /* ContainerWithMostWaterSolutionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
