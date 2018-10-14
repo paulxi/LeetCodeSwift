@@ -10,7 +10,7 @@ import Nimble
 class MergeSortedArraySolutionSpec: QuickSpec {
     override func spec() {
         describe("Merge Sorted Array") {
-            it("Test case 1") {
+            it("[1,2,3,0,0,0], m = 3 and [2,5,6], n = 3 should return [1,2,2,3,5,6]") {
                 let solution = MergeSortedArraySolution()
                 var nums1 = [1, 2, 3, 0, 0, 0]
                 let nums2 = [2, 5, 6]
