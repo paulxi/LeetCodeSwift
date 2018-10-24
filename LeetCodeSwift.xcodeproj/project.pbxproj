@@ -27,6 +27,7 @@
 		74B272B4CD3D06304E531AEF /* PowXnSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2716AE511B64775F033F6 /* PowXnSolution.swift */; };
 		74B272B85400A54C788AD8FE /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B272D691AC63C89FF76E4B /* Interval.swift */; };
 		74B2730A78F6654D49582C9F /* LongestSubstringWithoutRepeatingCharactersSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27C625281516587D9B156 /* LongestSubstringWithoutRepeatingCharactersSolution.swift */; };
+		74B2734FAA3FE282830322DF /* GameOfLifeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27971DED5780419E1A133 /* GameOfLifeSolution.swift */; };
 		74B2736C5E9EF5281C5AEED2 /* MergeTwoSortedListsSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27501B49666DF6FBCA5B6 /* MergeTwoSortedListsSolution.swift */; };
 		74B27409E82F9422C82A80DF /* MeetingRoomsIISolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B277C5A4CEE5BDB2A01F9A /* MeetingRoomsIISolution.swift */; };
 		74B27419E567175988D5D609 /* LicenseKeyFormattingSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2748888F63F3661DB93B0 /* LicenseKeyFormattingSolutionSpec.swift */; };
@@ -34,6 +35,7 @@
 		74B274CAAB647D1033D4AA36 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B271A60F5DE188B06FE1B4 /* TreeNode.swift */; };
 		74B275168AEF36E74B514374 /* RomanToIntegerSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B278F89F2329F173D6A764 /* RomanToIntegerSolution.swift */; };
 		74B27526CAA7011FDE95AC7B /* CopyListWithRandomPointerSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2776D09154779F8E83F94 /* CopyListWithRandomPointerSolutionSpec.swift */; };
+		74B2753900F9F4B7A232471F /* GameOfLifeSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27AD50562E854C01BBA71 /* GameOfLifeSolutionSpec.swift */; };
 		74B27583B395A75394956893 /* TrappingRainWaterSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27F8858509353A5236A93 /* TrappingRainWaterSolution.swift */; };
 		74B275AC8CFDA8B619FA295D /* SearchInRotatedSortedArraySolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B274924E52BEDAD3958379 /* SearchInRotatedSortedArraySolutionSpec.swift */; };
 		74B276160B9DEE203EAD26B2 /* ReverseStringSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2797B79FC272313E1F5F8 /* ReverseStringSolutionSpec.swift */; };
@@ -175,11 +177,13 @@
 		74B27923BCC318BB16E51217 /* LRUCacheSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCacheSolutionSpec.swift; sourceTree = "<group>"; };
 		74B2793B031C5DCADA5DC4B9 /* PowXnSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowXnSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27941DABBB8836A991738 /* ReverseIntegerSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseIntegerSolutionSpec.swift; sourceTree = "<group>"; };
+		74B27971DED5780419E1A133 /* GameOfLifeSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOfLifeSolution.swift; sourceTree = "<group>"; };
 		74B2797B79FC272313E1F5F8 /* ReverseStringSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseStringSolutionSpec.swift; sourceTree = "<group>"; };
 		74B2799AEA328569240AB73C /* MedianOfTwoSortedArraysSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArraysSolution.swift; sourceTree = "<group>"; };
 		74B279A704F5DBE30BB6869F /* NextPermutationSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextPermutationSolutionSpec.swift; sourceTree = "<group>"; };
 		74B279C2ED0D9EEF5E234AED /* GroupAnagramsSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupAnagramsSolution.swift; sourceTree = "<group>"; };
 		74B27AC0A6B5D0B76DC6D5D4 /* MergeSortedArraySolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSortedArraySolutionSpec.swift; sourceTree = "<group>"; };
+		74B27AD50562E854C01BBA71 /* GameOfLifeSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOfLifeSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27AF78D42B12A0F1E5FF2 /* CopyListWithRandomPointerSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyListWithRandomPointerSolution.swift; sourceTree = "<group>"; };
 		74B27AFAB3CFC15F6DFD39CE /* ReverseLinkedListSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27B1DCEEE359E230E22F8 /* LRUCacheSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCacheSolution.swift; sourceTree = "<group>"; };
@@ -295,6 +299,7 @@
 				74B277C5A4CEE5BDB2A01F9A /* MeetingRoomsIISolution.swift */,
 				74B274B216EB123868F28179 /* GenerateParenthesesSolution.swift */,
 				74B277399C667683D95B772F /* SpiralMatrixSolution.swift */,
+				74B27971DED5780419E1A133 /* GameOfLifeSolution.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 				74B27B9ED021A50B8787194E /* MeetingRoomsIISolutionSpec.swift */,
 				74B27CC63DA628517E2697BB /* GenerateParenthesesSolutionSpec.swift */,
 				74B2701A54180E69594B4A42 /* SpiralMatrixSolutionSpec.swift */,
+				74B27AD50562E854C01BBA71 /* GameOfLifeSolutionSpec.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -716,6 +722,7 @@
 				74B27DAB9AB09332941997B7 /* GenerateParenthesesSolution.swift in Sources */,
 				74B27CF80999B45DD31F463C /* ReverseStringSolution.swift in Sources */,
 				74B2762A251EB5CB4C629AF2 /* SpiralMatrixSolution.swift in Sources */,
+				74B2734FAA3FE282830322DF /* GameOfLifeSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,6 +774,7 @@
 				74B27FBC9F94C5854E794E11 /* GenerateParenthesesSolutionSpec.swift in Sources */,
 				74B276160B9DEE203EAD26B2 /* ReverseStringSolutionSpec.swift in Sources */,
 				74B27AA0CEC6061F6B42EC47 /* SpiralMatrixSolutionSpec.swift in Sources */,
+				74B2753900F9F4B7A232471F /* GameOfLifeSolutionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
