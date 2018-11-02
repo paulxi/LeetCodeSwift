@@ -13,7 +13,7 @@ class LinkedListCycleSolution {
 
         var slow = head
         var fast = head?.next
-        while (slow! !== fast!) {
+        while slow! !== fast! {
             guard fast != nil && fast!.next != nil && fast!.next!.next != nil else {
                 return false
             }

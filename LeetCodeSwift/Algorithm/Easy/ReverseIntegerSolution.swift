@@ -11,13 +11,13 @@ class ReverseIntegerSolution {
         var rev: Int = 0
         let posRemainder = Int32.max % 10
         let negRemainder = Int32.min % 10
-        while (num != 0) {
+        while num != 0 {
             let pop = num % 10
             num /= 10
-            if (rev > Int32.max / 10 || (rev == Int32.max / 10 && pop > posRemainder)) {
+            if rev > Int32.max / 10 || (rev == Int32.max / 10 && pop > posRemainder) {
                 return 0
             }
-            if (rev < Int32.min / 10 || (rev == Int32.min / 10 && pop < negRemainder)) {
+            if rev < Int32.min / 10 || (rev == Int32.min / 10 && pop < negRemainder) {
                 return 0
             }
             rev = rev * 10 + pop

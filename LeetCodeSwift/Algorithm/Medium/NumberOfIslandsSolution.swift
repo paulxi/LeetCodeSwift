@@ -10,17 +10,15 @@ class NumberOfIslandsSolution {
         var copy = grid
         var num = 0
         let rows = grid.count
-        if (rows == 0) {
+        if rows == 0 {
             return 0
         }
         let cols = grid[0].count
 
         for row in 0 ..< rows {
-            for col in 0 ..< cols {
-                if copy[row][col] == "1" {
-                    num += 1
-                    checkNeighbor(&copy, row, col)
-                }
+            for col in 0 ..< cols where copy[row][col] == "1" {
+                num += 1
+                checkNeighbor(&copy, row, col)
             }
         }
 
@@ -28,7 +26,7 @@ class NumberOfIslandsSolution {
     }
 
     private func checkNeighbor(_ grid: inout [[Character]], _ row: Int, _ col: Int) {
-        if (row < 0 || row >= grid.count || col < 0 || col >= grid[0].count || grid[row][col] == "0") {
+        if row < 0 || row >= grid.count || col < 0 || col >= grid[0].count || grid[row][col] == "0" {
             return
         }
 

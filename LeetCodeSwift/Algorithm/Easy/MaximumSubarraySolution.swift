@@ -7,8 +7,7 @@ import Foundation
 
 class MaximumSubarraySolution {
     func maxSubArray(_ nums: [Int]) -> Int {
-        let result = nums.reduce((Int.min, Int.min)) {
-            (result, num) -> (Int, Int) in
+        let result = nums.reduce((Int.min, Int.min)) { (result, num) -> (Int, Int) in
             var (maximum, temp) = result
             if temp < 0 {
                 temp = num

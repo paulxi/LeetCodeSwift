@@ -37,7 +37,7 @@ class IntegerToEnglishWordsSolution {
                                            3: "Three",
                                            2: "Two",
                                            1: "One",
-                                           0: "Zero"];
+                                           0: "Zero"]
 
     func numberToWords(_ num: Int) -> String {
         if num == 0 {
@@ -48,7 +48,7 @@ class IntegerToEnglishWordsSolution {
     }
 
     private func convertToWords(_ num: Int) -> String {
-        if (num == 0) {
+        if num == 0 {
             return ""
         }
 

@@ -7,8 +7,8 @@ import Foundation
 
 class BestTimeToBuyAndSellStockSolution {
     func maxProfit(_ prices: [Int]) -> Int {
-        var max = 0;
-        var temp = 0;
+        var max = 0
+        var temp = 0
 
         if prices.count > 1 {
             for idx in 1 ..< prices.count {

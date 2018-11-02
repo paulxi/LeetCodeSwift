@@ -12,7 +12,7 @@ class MergeIntervalsSolution {
         }
 
         return sortedIntervals.reduce([]) { (result: [Interval], interval: Interval) -> [Interval] in
-            if (result.count == 0) {
+            if result.count == 0 {
                 return [interval]
             } else {
                 let last = result[result.count - 1]

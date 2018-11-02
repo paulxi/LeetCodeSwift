@@ -21,4 +21,3 @@ class ProductOfArrayExceptSelfSolution {
         return result
     }
 }
-

@@ -15,9 +15,9 @@ class RomanToIntegerSolution {
 
     private func convert(_ sum: Int, _ str: String) -> Int {
         let length = str.count
-        if (length == 0) {
+        if length == 0 {
             return sum
-        } else if (length == 1) {
+        } else if length == 1 {
             return sum + (RomanToIntegerSolution.RomanValue1[str] ?? 0)
         } else {
             let index = str.index(str.startIndex, offsetBy: 2)

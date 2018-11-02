@@ -17,8 +17,7 @@ class MostCommonWordSolution {
         }
 
         var map: [String: Int] = [:]
-        let maxResult = words.reduce(("", 0)) {
-            (result: (String, Int), word: String) -> (String, Int) in
+        let maxResult = words.reduce(("", 0)) { (result: (String, Int), word: String) -> (String, Int) in
             map[word] = (map[word] ?? 0) + 1
             if let num = map[word], num > result.1 {
                 return (word, num)

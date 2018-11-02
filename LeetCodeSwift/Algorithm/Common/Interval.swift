@@ -16,7 +16,7 @@ public class Interval {
 }
 
 extension Interval: Equatable {
-    static public func ==(lhs: Interval, rhs: Interval) -> Bool {
+    static public func == (lhs: Interval, rhs: Interval) -> Bool {
         return lhs.start == rhs.start && lhs.end == rhs.end
     }
 }

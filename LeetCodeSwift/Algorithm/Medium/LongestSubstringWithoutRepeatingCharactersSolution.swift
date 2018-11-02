@@ -38,7 +38,7 @@ class LongestSubstringWithoutRepeatingCharactersSolution {
         var map: [Character: Int] = [:]
 
         while let char = iterator.next() {
-            if ( maxLength + startIndex < strLen) {
+            if maxLength + startIndex < strLen {
                 let pos = map[char] ?? -1
                 startIndex = max(startIndex, pos + 1)
                 maxLength = max(maxLength, currentIndex - startIndex + 1)

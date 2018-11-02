@@ -7,9 +7,9 @@ import Foundation
 
 class MergeSortedArraySolution {
     func merge(_ nums1: inout [Int], _ mLen: Int, _ nums2: [Int], _ nLen: Int) {
-        var iIndex = mLen - 1;
-        var jIndex = nLen - 1;
-        var kIndex = mLen + nLen - 1;
+        var iIndex = mLen - 1
+        var jIndex = nLen - 1
+        var kIndex = mLen + nLen - 1
         while jIndex >= 0 {
             if iIndex < 0 || nums2[jIndex] > nums1[iIndex] {
                 nums1[kIndex] = nums2[jIndex]

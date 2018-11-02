@@ -16,7 +16,7 @@ class ReverseLinkedListSolution {
 //        return result
 
         var curr = head
-        var prev: ListNode? = nil
+        var prev: ListNode?
         while curr != nil {
             let temp = curr!.next
             curr!.next = prev

@@ -15,7 +15,7 @@ class NextPermutationSolution {
             iIndex -= 1
         }
 
-        if (iIndex >= 0) {
+        if iIndex >= 0 {
             var jIndex = nums.count - 1
             while jIndex >= 0 && nums[iIndex] >= nums[jIndex] {
                 jIndex -= 1

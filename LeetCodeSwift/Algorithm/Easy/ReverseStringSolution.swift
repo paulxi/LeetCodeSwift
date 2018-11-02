@@ -7,7 +7,7 @@ import Foundation
 
 class ReverseStringSolution {
     func reverseString(_ str: String) -> String {
-        var chars = str.map{$0}
+        var chars = str.map {$0}
         for idx in 0 ..< chars.count / 2 {
             let temp = chars[idx]
             let back = chars.count - 1 - idx

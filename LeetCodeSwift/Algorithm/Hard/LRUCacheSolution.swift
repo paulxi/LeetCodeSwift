@@ -38,13 +38,13 @@ class LRUCacheSolution {
         }
     }
 
-    func put(_ key: Int, _ value: Int) -> Void {
+    func put(_ key: Int, _ value: Int) {
         if let node = self.cache[key] {
             node.value = value
             self.removeNode(node)
             self.addNode(node)
         } else {
-            if (self.count == self.capacity) {
+            if self.count == self.capacity {
                 self.cache.removeValue(forKey: self.tail.pre!.key)
                 self.removeNode(self.tail.pre!)
                 self.count -= 1

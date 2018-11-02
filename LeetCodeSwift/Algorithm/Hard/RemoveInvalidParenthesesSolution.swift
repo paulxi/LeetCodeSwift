@@ -7,7 +7,7 @@ import Foundation
 
 class RemoveInvalidParenthesesSolution {
     func removeInvalidParentheses(_ str: String) -> [String] {
-        var ans:[String] = []
+        var ans: [String] = []
         remove(str, &ans, 0, 0, ["(", ")"])
         return ans
     }
@@ -29,7 +29,8 @@ class RemoveInvalidParenthesesSolution {
             for idxJ in lastJ ... idxI {
                 let index = str.index(str.startIndex, offsetBy: idxJ)
                 if str[index] == par[1] && (idxJ == lastJ || str[str.index(before: index)] != par[1]) {
-                    let newStr = String(str[str.startIndex ..< index]) + String(str[str.index(after: index) ..< str.endIndex])
+                    let newStr = String(str[str.startIndex ..< index]) +
+                        String(str[str.index(after: index) ..< str.endIndex])
                     remove(newStr, &ans, idxI, idxJ, par)
                 }
             }

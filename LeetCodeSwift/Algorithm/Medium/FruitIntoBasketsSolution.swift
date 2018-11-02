@@ -8,7 +8,7 @@ import Foundation
 class FruitIntoBasketsSolution {
     func totalFruit(_ tree: [Int]) -> Int {
         var ans = 0
-        var ptr = 0;
+        var ptr = 0
         var count: [Int: Int] = [:]
         for idx in 0 ..< tree.count {
             let type = tree[idx]

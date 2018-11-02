@@ -16,23 +16,23 @@ class KEmptySlotsSolution {
         var left = 0
         var right = left + slots + 1
 
-        while (right < days.count) {
+        while right < days.count {
             var idx = left + 1
-            while (idx < right) {
+            while idx < right {
                 if days[idx] < days[left] || days[idx] < days[right] {
                     break
                 }
                 idx += 1
             }
 
-            if (idx == right) {
-                ans = min(ans, max(days[left], days[right]));
+            if idx == right {
+                ans = min(ans, max(days[left], days[right]))
             }
             left = idx
             right = left + slots + 1
         }
 
-        if (ans < Int.max) {
+        if ans < Int.max {
             return ans
         } else {
             return -1

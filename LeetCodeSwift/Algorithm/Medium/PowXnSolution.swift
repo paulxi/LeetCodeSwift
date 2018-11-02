@@ -7,8 +7,8 @@ import Foundation
 
 class PowXnSolution {
     func myPow(_ num: Double, _ pow: Int) -> Double {
-        let power: Int64 = pow < 0 ? -Int64(pow) : Int64(pow);
-        let number = pow < 0 ? (1 / num) : num;
+        let power: Int64 = pow < 0 ? -Int64(pow) : Int64(pow)
+        let number = pow < 0 ? (1 / num) : num
 
         var result = 1.0
         var production = number

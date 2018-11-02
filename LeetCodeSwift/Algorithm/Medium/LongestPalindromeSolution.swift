@@ -22,11 +22,11 @@ class LongestPalindromeSolution {
             let palindrome1 = findPalindrome(chars, leftStartIndex: index, rightStartIndex: index)
             let palindrome2 = findPalindrome(chars, leftStartIndex: index, rightStartIndex: index + 1)
 
-            if (palindrome1.count > result.count) {
+            if palindrome1.count > result.count {
                 result = palindrome1
             }
 
-            if (palindrome2.count > result.count) {
+            if palindrome2.count > result.count {
                 result = palindrome2
             }
         }
@@ -40,14 +40,14 @@ class LongestPalindromeSolution {
         var right = rightStartIndex
         var result = ""
 
-        while (left >= 0 && right < strLength) {
+        while left >= 0 && right < strLength {
             let leftChar = chars[left]
             let rightChar = chars[right]
 
-            if (leftChar == rightChar) {
+            if leftChar == rightChar {
                 result.insert(leftChar, at: result.startIndex)
 
-                if (left != right) {
+                if left != right {
                     result.insert(rightChar, at: result.endIndex)
                 }
 

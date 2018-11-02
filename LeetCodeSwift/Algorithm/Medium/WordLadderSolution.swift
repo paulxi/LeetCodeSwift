@@ -42,8 +42,8 @@ class WordLadderSolution {
         while srcIndex != src.endIndex {
             if String(src[srcIndex ..< src.index(srcIndex, offsetBy: 1)]) !=
                        String(dist[distIndex ..< dist.index(distIndex, offsetBy: 1)]) {
-                return src.substring(from: src.index(srcIndex, offsetBy: 1)) ==
-                        dist.substring(from: dist.index(distIndex, offsetBy: 1))
+                return String(src[src.index(srcIndex, offsetBy: 1) ..< src.endIndex]) ==
+                        String(dist[dist.index(distIndex, offsetBy: 1) ..< dist.endIndex])
             } else {
                 srcIndex = src.index(srcIndex, offsetBy: 1)
                 distIndex = dist.index(distIndex, offsetBy: 1)
