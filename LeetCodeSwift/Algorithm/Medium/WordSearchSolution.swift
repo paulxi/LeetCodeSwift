@@ -42,11 +42,11 @@ class WordSearchSolution {
 
         visited[row][column] = true
 
-        if char == board[row][column] {
-            return search(board, word, row - 1, column, index + 1, &visited)
-                    || search(board, word, row + 1, column, index + 1, &visited)
-                    || search(board, word, row, column - 1, index + 1, &visited)
-                    || search(board, word, row, column + 1, index + 1, &visited)
+        if search(board, word, row - 1, column, index + 1, &visited)
+                   || search(board, word, row + 1, column, index + 1, &visited)
+                   || search(board, word, row, column - 1, index + 1, &visited)
+                   || search(board, word, row, column + 1, index + 1, &visited) {
+            return true
         }
 
         visited[row][column] = false
