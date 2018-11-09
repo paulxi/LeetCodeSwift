@@ -56,6 +56,7 @@
 		74B2762A251EB5CB4C629AF2 /* SpiralMatrixSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B277399C667683D95B772F /* SpiralMatrixSolution.swift */; };
 		74B27638CA568DA8AE5F7976 /* WordLadderSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2777A4D988C3CF72329E9 /* WordLadderSolutionSpec.swift */; };
 		74B276394F00E1B41B848B09 /* MinStackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27F7FB022FE78799480A7 /* MinStackSpec.swift */; };
+		74B2766E21B5D74C059CCBAE /* UniqueEmailAddressesSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27058C2961AEBA7E40F75 /* UniqueEmailAddressesSolutionSpec.swift */; };
 		74B27677B11F4C8C5FACF806 /* LongestConsecutiveSequenceSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27512D6CF2B08138850B8 /* LongestConsecutiveSequenceSolution.swift */; };
 		74B2767ABA7DFBDB7DE24296 /* LongestSubstringWithoutRepeatingCharactersSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2783A303FB50AFE5DFB59 /* LongestSubstringWithoutRepeatingCharactersSolutionSpec.swift */; };
 		74B2770676CDAF2B9B4FDFFE /* LRUCacheSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27923BCC318BB16E51217 /* LRUCacheSolutionSpec.swift */; };
@@ -120,6 +121,7 @@
 		74B27E56ED71B982CF293A9C /* SearchInRotatedSortedArraySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B277455589C6207B9F9B59 /* SearchInRotatedSortedArraySolution.swift */; };
 		74B27E5DDC980B80F0973C98 /* MergeKSortedListsSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2715845D7B659DA3DB03F /* MergeKSortedListsSolutionSpec.swift */; };
 		74B27E7ACAB47E97F86208D4 /* RegularExpressionMatchingSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B272EB22D8ABCFCAA9C1C8 /* RegularExpressionMatchingSolutionSpec.swift */; };
+		74B27E9A18DF55DA026AA6E0 /* UniqueEmailAddressesSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2757C22B48CEACE7031DC /* UniqueEmailAddressesSolution.swift */; };
 		74B27EA1964103B7FC9F4474 /* ReverseLinkedListSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27AFAB3CFC15F6DFD39CE /* ReverseLinkedListSolutionSpec.swift */; };
 		74B27EBA1C3E71128F8A61E9 /* MedianOfTwoSortedArraysSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2799AEA328569240AB73C /* MedianOfTwoSortedArraysSolution.swift */; };
 		74B27EBBE3C6E4D3DE966BC9 /* MaximumSubarraySolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27CEA8E288F1012A63C3F /* MaximumSubarraySolutionSpec.swift */; };
@@ -157,6 +159,7 @@
 		606F052316F4ECA9F4732741 /* Pods-LeetCodeSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeetCodeSwiftTests/Pods-LeetCodeSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74B2701A54180E69594B4A42 /* SpiralMatrixSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiralMatrixSolutionSpec.swift; sourceTree = "<group>"; };
 		74B2703D938B1F39D03555F1 /* LowestCommonAncestorOfABinaryTreeSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfABinaryTreeSolutionSpec.swift; sourceTree = "<group>"; };
+		74B27058C2961AEBA7E40F75 /* UniqueEmailAddressesSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueEmailAddressesSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27097FA0962D0B886EEA6 /* MaximumSubarraySolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaximumSubarraySolution.swift; sourceTree = "<group>"; };
 		74B270A974824C36D9130E72 /* RomanToIntegerSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanToIntegerSolutionSpec.swift; sourceTree = "<group>"; };
 		74B270BDD51BC44FDDBB4F94 /* MoveZeroesSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZeroesSolution.swift; sourceTree = "<group>"; };
@@ -207,6 +210,7 @@
 		74B275248CE62C491617380C /* LicenseKeyFormattingSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseKeyFormattingSolution.swift; sourceTree = "<group>"; };
 		74B2754BA97EF30803824F81 /* MostCommonWordSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostCommonWordSolutionSpec.swift; sourceTree = "<group>"; };
 		74B27573C29C4EA25C9D7FC3 /* MinimumWindowSubstringSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstringSolutionSpec.swift; sourceTree = "<group>"; };
+		74B2757C22B48CEACE7031DC /* UniqueEmailAddressesSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueEmailAddressesSolution.swift; sourceTree = "<group>"; };
 		74B275C026A5645FF151FD28 /* LongestPalindromeSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestPalindromeSolutionSpec.swift; sourceTree = "<group>"; };
 		74B2765F2A1584E19FE60CBF /* ZigZagConversionSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigZagConversionSolution.swift; sourceTree = "<group>"; };
 		74B276ECA9DD59CB3463822D /* RandomListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomListNode.swift; sourceTree = "<group>"; };
@@ -528,6 +532,7 @@
 				74B270BDD51BC44FDDBB4F94 /* MoveZeroesSolution.swift */,
 				74B2720D6A8071781C0DC321 /* MinStack.swift */,
 				74B27BD7D978C299409FC016 /* LongestCommonPrefixSolution.swift */,
+				74B2757C22B48CEACE7031DC /* UniqueEmailAddressesSolution.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -564,6 +569,7 @@
 				74B271BF5234EB342CD70DA2 /* MoveZeroesSolutionSpec.swift */,
 				74B27F7FB022FE78799480A7 /* MinStackSpec.swift */,
 				74B274B78A7D136EC25C5336 /* LongestCommonPrefixSolutionSpec.swift */,
+				74B27058C2961AEBA7E40F75 /* UniqueEmailAddressesSolutionSpec.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -835,6 +841,7 @@
 				74B27B0B07486C0806E945D2 /* LongestCommonPrefixSolution.swift in Sources */,
 				74B27A67AA4B181C3E05C23A /* ReverseNodesInKGroupSolution.swift in Sources */,
 				74B270160E01CA8920BE4934 /* TaskSchedulerSolution.swift in Sources */,
+				74B27E9A18DF55DA026AA6E0 /* UniqueEmailAddressesSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -903,6 +910,7 @@
 				74B27D1344E57959868B80C6 /* LongestCommonPrefixSolutionSpec.swift in Sources */,
 				74B27E2BF9ACAF4F694A4BBA /* ReverseNodesInKGroupSolutionSpec.swift in Sources */,
 				74B273BB2C5D090DF76BD120 /* TaskSchedulerSolutionSpec.swift in Sources */,
+				74B2766E21B5D74C059CCBAE /* UniqueEmailAddressesSolutionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
