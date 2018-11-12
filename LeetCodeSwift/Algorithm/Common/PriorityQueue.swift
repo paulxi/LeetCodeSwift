@@ -13,7 +13,12 @@ class PriorityQueue<T> {
         self.ordered = order
     }
 
-    var isEmpty: Bool { return heap.isEmpty }
+    var isEmpty: Bool {
+        return heap.isEmpty
+    }
+    var count: Int {
+        return heap.count
+    }
 
     func push(_ element: T) {
         heap.append(element)
@@ -34,6 +39,15 @@ class PriorityQueue<T> {
         sink(0)
         return temp
     }
+
+    func peek() -> T? {
+        if self.isEmpty {
+            return nil
+        }
+
+        return self.heap[0]
+    }
+
 
     private func sink(_ index: Int) {
         var index = index
