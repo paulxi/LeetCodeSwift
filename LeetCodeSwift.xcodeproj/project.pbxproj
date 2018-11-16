@@ -105,6 +105,8 @@
 		74B27B3433259927955890C6 /* WordBreakSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27DB2CD8B231A8839D5D2 /* WordBreakSolutionSpec.swift */; };
 		74B27B344FC60307514C2AEF /* SerializeAndDeserializeBinaryTreeSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27B40552E593BF07D79AE /* SerializeAndDeserializeBinaryTreeSolution.swift */; };
 		74B27B40B338D4CB62F409B2 /* AddBinarySolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27F9581B0C6377CFB263F /* AddBinarySolution.swift */; };
+		74B27B4FB4434A5E4D7DAAC8 /* MultiplyStringsSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2728879FCCDD6CA258277 /* MultiplyStringsSolutionSpec.swift */; };
+		74B27B7056AD56AD2F04A385 /* MultiplyStringsSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B2763422020A9B6350570C /* MultiplyStringsSolution.swift */; };
 		74B27B9707CB0CA5C5D2F7B2 /* LetterCombinationsOfAPhoneNumberSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B27710ED82108B458A5933 /* LetterCombinationsOfAPhoneNumberSolution.swift */; };
 		74B27BAD96674C81E6DE2110 /* MergeIntervalsSolutionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B271DAAFF2B4680C779C07 /* MergeIntervalsSolutionSpec.swift */; };
 		74B27BDD4C3D5CDD484AB1C5 /* ReverseIntegerSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B273EE3373A36AD0A8880B /* ReverseIntegerSolution.swift */; };
@@ -200,6 +202,7 @@
 		74B27242C147968D420CAF24 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		74B2726CA90DC94B018E1CB7 /* LongestConsecutiveSequenceSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestConsecutiveSequenceSolutionSpec.swift; sourceTree = "<group>"; };
 		74B272871D906537D56438F9 /* AddTwoNumbersSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersSolutionSpec.swift; sourceTree = "<group>"; };
+		74B2728879FCCDD6CA258277 /* MultiplyStringsSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyStringsSolutionSpec.swift; sourceTree = "<group>"; };
 		74B272B5A03062D1C307D25B /* KthLargestElementInAnArraySolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KthLargestElementInAnArraySolutionSpec.swift; sourceTree = "<group>"; };
 		74B272BBB09AFBA94C82C8B2 /* BinaryTreeLevelOrderTraversalSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversalSolution.swift; sourceTree = "<group>"; };
 		74B272D691AC63C89FF76E4B /* Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
@@ -232,6 +235,7 @@
 		74B27573C29C4EA25C9D7FC3 /* MinimumWindowSubstringSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumWindowSubstringSolutionSpec.swift; sourceTree = "<group>"; };
 		74B2757C22B48CEACE7031DC /* UniqueEmailAddressesSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueEmailAddressesSolution.swift; sourceTree = "<group>"; };
 		74B275C026A5645FF151FD28 /* LongestPalindromeSolutionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestPalindromeSolutionSpec.swift; sourceTree = "<group>"; };
+		74B2763422020A9B6350570C /* MultiplyStringsSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyStringsSolution.swift; sourceTree = "<group>"; };
 		74B27645B4914797647614E8 /* FindTheDuplicateNumberSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindTheDuplicateNumberSolution.swift; sourceTree = "<group>"; };
 		74B2765F2A1584E19FE60CBF /* ZigZagConversionSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZigZagConversionSolution.swift; sourceTree = "<group>"; };
 		74B276DD11E2D2FD6568A6E6 /* LargestRectangleInHistogramSolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargestRectangleInHistogramSolution.swift; sourceTree = "<group>"; };
@@ -418,6 +422,7 @@
 				74B27645B4914797647614E8 /* FindTheDuplicateNumberSolution.swift */,
 				74B27DE3A56AE8AF22A8CB24 /* LinkedListCycleIISolution.swift */,
 				74B272BBB09AFBA94C82C8B2 /* BinaryTreeLevelOrderTraversalSolution.swift */,
+				74B2763422020A9B6350570C /* MultiplyStringsSolution.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -459,6 +464,7 @@
 				74B27DCE94F5A5C271133E72 /* FindTheDuplicateNumberSolutionSpec.swift */,
 				74B271D99378B10A3F1D4C10 /* LinkedListCycleIISolutionSpec.swift */,
 				74B27D0FDCB64BCD7185A2D1 /* BinaryTreeLevelOrderTraversalSolutionSpec.swift */,
+				74B2728879FCCDD6CA258277 /* MultiplyStringsSolutionSpec.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -895,6 +901,7 @@
 				74B277E3F62C7BD5C106E80E /* FindTheDuplicateNumberSolution.swift in Sources */,
 				74B2748294A14E1D20E0CE58 /* LinkedListCycleIISolution.swift in Sources */,
 				74B270C3C3A0887883F408B9 /* BinaryTreeLevelOrderTraversalSolution.swift in Sources */,
+				74B27B7056AD56AD2F04A385 /* MultiplyStringsSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -971,6 +978,7 @@
 				74B272101D116C8ABC6C6165 /* FindTheDuplicateNumberSolutionSpec.swift in Sources */,
 				74B27611ECDE14DF91BE9F21 /* LinkedListCycleIISolutionSpec.swift in Sources */,
 				74B272857EA629750FC50294 /* BinaryTreeLevelOrderTraversalSolutionSpec.swift in Sources */,
+				74B27B4FB4434A5E4D7DAAC8 /* MultiplyStringsSolutionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
