@@ -10,7 +10,7 @@ import Nimble
 class SubsetsSolutionSpec: QuickSpec {
     override func spec() {
         describe("Subsets") {
-            it("'42' should return 42") {
+            it("[1,2,3] should return [[3],[1],[2],[1,2,3],[1,3],[2,3],[1,2],[]]") {
                 let solution = SubsetsSolution()
                 expect(solution.subsets([1, 2, 3]).count).to(equal(8))
             }
