@@ -12,7 +12,7 @@ class CountAndSaySolution {
             return result
         }
 
-        for idx in 2 ... num {
+        for _ in 2 ... num {
             var newResult = ""
             var currChar = String(result[result.startIndex])
             var count = 1
