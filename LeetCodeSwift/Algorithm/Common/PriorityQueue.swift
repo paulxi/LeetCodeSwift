@@ -48,7 +48,6 @@ class PriorityQueue<T> {
         return self.heap[0]
     }
 
-
     private func sink(_ index: Int) {
         var index = index
         while 2 * index + 1 < heap.count {
@@ -78,6 +77,19 @@ class PriorityQueue<T> {
         while index > 0 && ordered(heap[index], heap[(index - 1) / 2]) {
             heap.swapAt((index - 1) / 2, index)
             index = (index - 1) / 2
+        }
+    }
+}
+
+extension PriorityQueue where T: Comparable {
+    func remove(_ element: T) {
+        if let index = heap.index(of: element) {
+            heap.swapAt(index, heap.count - 1)
+            heap.removeLast()
+            if index < heap.count {
+                swim(index)
+                sink(index)
+            }
         }
     }
 }
